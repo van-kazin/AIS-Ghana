@@ -349,6 +349,7 @@
      float: left;
      margin-top: -15px;
      padding-bottom: 6px;
+     
 }
  nav.main-menu {
      float: left;
@@ -961,7 +962,7 @@
 }
 
 .header_information {
-    background-color: #200769;
+    background-color: darkgreen;
     padding: 0 0;
     padding-top: 0px;
     margin-top: 0;
@@ -976,10 +977,27 @@
     right: 0;
 }
 
+.header_information-new {
+    background-color: whitesmoke;
+    padding: 0 0;
+    padding-top: 0px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: absolute;
+    width: 88%;
+    
+    height: 50px;
+   
+   margin-top: -20px;
+    right: 0;
+}
+
 .header_information::after {
     width: 75px;
     height: 90px;
-    background: url(../images/top_arrow.png);
+    /* background: url(../images/top_arrow.png); */
+    background-color: darkgreen;
     display: block;
     content: "";
     position: absolute;
@@ -1001,6 +1019,8 @@ background-repeat: no-repeat;
    left: -131px;
 background-repeat: no-repeat;
 }
+
+
 
 
 .mean-last {
@@ -1027,7 +1047,8 @@ width: 24%;
     width: 44px;
 height: 88px;
 margin-left: -51px;
-    background: url(../images/top_arrow2.png);
+    /* background: url(../images/top_arrow2.png); */
+    background-color: darkgreen;
     display: block;
     content: "";
     position: absolute;
@@ -1057,8 +1078,8 @@ background-repeat: no-repeat;
      font-size: 40px;
      font-weight: bold;
      text-transform: uppercase;
-     color: #fff;
-     line-height: 40px;
+     color: #008000;
+     line-height: 40px
 }
  .banner_Client {
      position: relative;
@@ -1669,3 +1690,52 @@ padding-bottom: 20px;
 }
 /** end footer **/
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
+
+video {
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    /* padding: 0;
+    margin: 0;
+    border: 0; */
+}
+
+/* .main-menu-one {
+    list-style-type: none;
+    text-align: center;
+    color: #000;
+}
+
+.top >li {
+    display: inline;
+} */
+
+.main-menu-one ul {
+    margin: 0;
+    list-style-type: none;
+}
+.main-menu-one ul>li {
+    display: inline-block;
+    position: relative;
+}
+.main-menu-one ul>li a {
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    display: block;
+    font-weight: bold;
+    color: black;
+    /* text-transform: uppercase; */
+    padding-bottom: 17px;
+}
+
+.useful-links {
+    padding-left: 350px;
+}
+
+.main-menu-one ul>li a:hover {    color: darkgreen;}
+.main-menu-one ul li:last-child a {
+    padding-right: 0;
+}
