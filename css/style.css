@@ -970,8 +970,9 @@
     margin-bottom: 0;
     position: absolute;
     width: 88%;
+    padding-bottom: 0;
     
-    height: 90px;
+    height: 102px;
    
    margin-top: -20px;
     right: 0;
@@ -995,7 +996,7 @@
 
 .header_information::after {
     width: 75px;
-    height: 90px;
+    height: 102px;
     /* background: url(../images/top_arrow.png); */
     background-color: darkgreen;
     display: block;
@@ -1739,3 +1740,48 @@ video {
 .main-menu-one ul li:last-child a {
     padding-right: 0;
 }
+
+/* Dropdown */
+/* Dropdown Button */
+.dropbtn {
+    background-color: darkgreen;
+    color: white;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: darkgreen;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: darkgreen;}
+  
