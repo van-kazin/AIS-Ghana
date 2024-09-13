@@ -1830,3 +1830,15 @@ video {
     font-size: 20px;
     padding-left: 15px;
 }
+
+
+.cv {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    
+}
+
+.v {
+    height: 120px;
+}
